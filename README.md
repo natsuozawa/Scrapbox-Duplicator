@@ -44,3 +44,20 @@ Scrapboxの非公開・公開プロジェクトを分けて運用する際に面
 ## 謝辞
 
 - Scrapboxを開発しているNota, Inc.の皆さんに感謝します
+
+## Docker
+
+Set .env file
+
+```
+SID=12345
+SOURCE_PROJECT_NAME=foo
+DESTIONATION_PROJECT_NAME=bar
+```
+
+# Subaccounts
+
+Invite a subaccount and get the SID when accessing the private version of the project.
+
+Give the subaccount admin privileges on both projects.
+
