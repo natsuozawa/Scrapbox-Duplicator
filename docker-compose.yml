@@ -3,6 +3,6 @@ services:
   web:
     build: .
     container_name: scrapbox-duplicator
-    image: deno-image
+    image: scrapbox-duplicator
     ports:
       - "8000:8000"
